@@ -8,3 +8,5 @@ Route::get('/', function () {
 
 
 Route::get('Forloop/{num}',[Loop::class, 'num']);
+
+Route::get('while/{num}',[Loop::class,'while']);
