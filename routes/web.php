@@ -13,4 +13,4 @@ Route::get('Forloop/{num}',[Loop::class, 'num']);
 
 Route::get('while/{num}',[Loop::class,'while']);
 
-// Route::get('iffs/{num}',[Iff::class,'iff']);
+Route::get('iffs/{num}',[Iff::class,'iff']);
