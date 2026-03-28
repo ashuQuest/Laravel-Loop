@@ -15,6 +15,7 @@ class Loop extends Controller
     function while($num){
         return view('WhileLoop',['number'=>$num]);
     }
+    
 
 }
 

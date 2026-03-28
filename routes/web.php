@@ -2,7 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Loop;
-Route::get('/', function () {
+use App\Http\Controllers\Iff;
+
+Route::get('/welcome', function () {
     return view('welcome');
 });
 
@@ -10,3 +12,5 @@ Route::get('/', function () {
 Route::get('Forloop/{num}',[Loop::class, 'num']);
 
 Route::get('while/{num}',[Loop::class,'while']);
+
+// Route::get('iffs/{num}',[Iff::class,'iff']);
